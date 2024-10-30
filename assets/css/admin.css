@@ -1,0 +1,240 @@
+@-webkit-keyframes cf7k-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes cf7k-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.cf7k-alert {
+  background: red;
+  color: white;
+  padding: 15px 10px;
+  margin: 10px 0;
+}
+
+.cf7k-alert p {
+  margin: 0;
+}
+
+.cf7k-alert ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: circle;
+  list-style: inside;
+}
+
+.cf7k-alert ul li {
+  margin: 0;
+}
+
+.cf7k-red-text {
+  color: red;
+}
+
+.cf7k-cpt-metabox .hndle, .cf7k-cpt-metabox .toggle-indicator {
+  background: black;
+  color: white;
+}
+
+.cf7k-cpt-metabox table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  width: 100%;
+  clear: both;
+}
+
+.cf7k-cpt-metabox table th, .cf7k-cpt-metabox table td, .cf7k-cpt-metabox table p {
+  font-size: 14px;
+}
+
+.cf7k-cpt-metabox table th {
+  vertical-align: top;
+  text-align: left;
+  padding: 20px 10px 20px 0;
+  width: 200px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.cf7k-cpt-metabox table td {
+  margin-bottom: 9px;
+  padding: 15px 10px;
+  line-height: 1.3;
+  vertical-align: middle;
+}
+
+.cf7k-cpt-metabox table tr > th {
+  min-width: 200px;
+}
+
+.cf7k-cpt-metabox .select2 {
+  width: 100% !important;
+}
+
+.cf7k-cpt-metabox .select2-selection {
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.cf7k-cpt-metabox .select2-selection__choice {
+  margin-bottom: 0;
+}
+
+.cf7k-cpt-metabox .select2-selection__choice .select2-selection__choice__remove {
+  height: 33px;
+  line-height: 33px;
+}
+
+.cf7k-cpt-metabox .create-cf7-link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#cf7k_general_settings_metabox .hndle, #cf7k_general_settings_metabox .toggle-indicator {
+  background: black;
+  color: white;
+}
+
+#cf7k_slack_integration_metabox {
+  display: none;
+}
+
+#cf7k_slack_integration_metabox .hndle, #cf7k_slack_integration_metabox .toggle-indicator {
+  background: black;
+  color: white;
+}
+
+#cf7k_slack_integration_metabox.enabled {
+  display: block;
+}
+
+#cf7k_mailchimp_integration_metabox {
+  display: none;
+}
+
+#cf7k_mailchimp_integration_metabox .hndle, #cf7k_mailchimp_integration_metabox .toggle-indicator {
+  background: black;
+  color: white;
+}
+
+#cf7k_mailchimp_integration_metabox.enabled {
+  display: block;
+}
+
+#cf7k_mailchimp_integration_metabox i.cf7k-spin {
+  -webkit-animation: cf7k-spin 2s linear infinite;
+          animation: cf7k-spin 2s linear infinite;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-audience, #cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-groups {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-audience i, #cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-groups i {
+  margin-left: 5px;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping {
+  overflow: hidden;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping-header {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping-header > div {
+  width: 45%;
+  float: left;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping-row {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping-row > div {
+  float: left;
+  width: 45%;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping-row > div:last-child {
+  float: left;
+  width: 10%;
+}
+
+#cf7k_mailchimp_integration_metabox .cf7k-cpt-metabox-mailchimp-field-mapping-row > div:last-child i {
+  cursor: pointer;
+}
+
+#cf7k_webhook_integration_metabox {
+  display: none;
+}
+
+#cf7k_webhook_integration_metabox .hndle, #cf7k_webhook_integration_metabox .toggle-indicator {
+  background: black;
+  color: white;
+}
+
+#cf7k_webhook_integration_metabox.enabled {
+  display: block;
+}
+
+#cf7k_webhook_integration_metabox i.cf7k-spin {
+  -webkit-animation: cf7k-spin 2s linear infinite;
+          animation: cf7k-spin 2s linear infinite;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping {
+  overflow: hidden;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping-header {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping-header > div {
+  width: 45%;
+  float: left;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping-row {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping-row > div {
+  float: left;
+  width: 45%;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping-row > div:last-child {
+  float: left;
+  width: 10%;
+}
+
+#cf7k_webhook_integration_metabox .cf7k-cpt-metabox-webhook-field-mapping-row > div:last-child i {
+  cursor: pointer;
+}
